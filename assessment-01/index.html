@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script>
+    <script>
+        function myFunction(){
+            document.getElementById('text').innerHTML = "Changed from the function in the header"
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <h1>Pollo</h1>
+        <nav>
+            <div class="buttons">
+                <button onclick="document.getElementById('max').src='images/max.PNG'">Max Uno</button>
+                <button onclick="document.getElementById('max').src='images/max2.PNG'">Max Dos</button>
+                <button onclick="document.getElementById('max').src='images/max3.PNG'">Max Tres</button>
+            </div>
+        </nav>
+        <img src="images/Max.PNG" alt="Max" id="max">
+        <h2>TEXT</h2>
+        <script>
+            function myFunction3(){
+                document.getElementById('text').innerHTML = "Changed from the function in the body"
+            }
+        </script>
+        <p id="text">This is from the index paragraph</p>
+        <button onclick="myFunction()">Change text</button>
+        <button onclick="myFunction2()">Change text</button>
+        <button onclick="myFunction3()">Change text</button>
+        <div class="buttons">
+            <button onclick="changeWidth()">Change Image Width!</button>
+            <button onclick="changeColor()">Change Text Color</button>
+        </div>
+        <div>
+            <button onclick="showImg()">Show Image</button>
+            <button onclick="hideImg()">Hide Image</button>
+        </div>
+        <footer>
+            @Michael Tapia
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.main{
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    background: rgb(194,195,34);
+    background: radial-gradient(circle, rgba(194,195,34,1) 0%, rgba(253,45,141,1) 100%);
+}
+
+body{
+    background-color: rgb(255, 189, 67);
+}
+
+img{
+    width: 35%;
+    height: 35%;
+    text-align: left;
+    border-radius: 15px;
+}
+
+button{
+    width: 10%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    padding: 10px;
+}
+
+nav{
+    padding: 15px;
+}
+
+h2{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}
